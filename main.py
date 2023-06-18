@@ -23,7 +23,7 @@ songs = ["Kill V. Maim", "Oblivion", "Genesis", "Flesh Without Blood", "REALiTi"
 "Anhedonia (Death of the Old)", "Deth Angels", "Saturn Princess", "Stoned Henge (whoknoidontno)", "​gloam", "Swan Lake", "Samana", "Voignamir", "Black Hair"]
 
 def get_raw_lyrics():
-    genius_client_access_token = "J1Gd5gO7wyI4r_qNUHtwZ-j4jMVEInNPekImNb6H0JRYWPSuz6ubYPD3j00MKXSc"
+    genius_client_access_token = config.genius_client_access_token
     genius = lyricsgenius.Genius(genius_client_access_token)
     random_song_title = random.choice(songs)
     lyrics = genius.search_song(random_song_title, "Grimes").lyrics
