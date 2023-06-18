@@ -1,6 +1,6 @@
 # Grimes Lyric Bot
 
-This is a Twitter bot written in Python that utilizes the Genius API to fetch lyrics for the artist Grimes and tweets them on Twitter. The bot is deployed on AWS Lambda. [Here](https://twitter.com/grimeslyrbot) is the link to view it.
+This is a Twitter bot written in Python that utilizes the Genius API to fetch lyrics for the artist Grimes and tweets them on Twitter. The bot is deployed on AWS Lambda.
 
 ## Dependencies
 
